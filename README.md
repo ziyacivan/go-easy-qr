@@ -64,6 +64,24 @@
     curl -X POST "http://localhost:3000/api/v1/generate?data=https://example.com"
     ```
 
+## Docker
+
+### Build the Docker image
+
+1. Build the Docker image:
+    ```sh
+    docker build -t go-easy-qr .
+    ```
+
+### Run the Docker container
+
+2. Run the Docker container:
+    ```sh
+    docker run -p 3000:3000 go-easy-qr
+    ```
+
+The server will start on `http://localhost:3000`.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
