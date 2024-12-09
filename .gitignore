@@ -1,0 +1,50 @@
+# Binary output
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go specific
+/vendor/
+/bin/
+/pkg/
+*.log
+*.lock
+*.env
+
+# Dependency directories (vendor)
+vendor/
+
+# Module files
+go.sum
+go.work
+go.work.sum
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Node.js files (if used for assets)
+node_modules/
+
+# Docker specific
+.dockerignore
+docker-compose.override.yml
+
+# Test cache
+*.test-cache
+
+# Coverage files
+*.cover
+*.cov
+
+# Miscellaneous
+*.swp
+*.swo
