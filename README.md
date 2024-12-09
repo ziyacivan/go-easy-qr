@@ -1,5 +1,7 @@
 # go-easy-qr
 
+![go-easy-qr-code](https://github.com/ziyacivan/go-easy-qr/blob/master/pr-qr-code.png)
+
 🎱 This repository includes a QR Code generator Web API written in Golang.
 
 ## Table of Contents
